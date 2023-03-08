@@ -34,3 +34,22 @@ nav ul li a {
     color: white;
 }
 
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 70px;
+  }
+.header-text h2 {
+    font-size: 50px;
+}
+.header-text h3{
+    font-size: 20px;
+    margin: 10px 10px;
+}
