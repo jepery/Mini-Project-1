@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /*******************************************Header Section*****************************************************/
 
@@ -13,7 +13,7 @@
     background-position: center;
 }
 
-nav {
+/* nav {
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ nav ul li a {
     margin: 70px 10px;
     text-decoration: none;
     color: white;
-}
+} */
 
 .header-text {
     position: absolute;
@@ -60,19 +60,20 @@ nav ul li a {
 
 /*******************************************Portfolio*****************************************************/
 
-.portfolio h2 {
+.portfolio-section h2 {
     margin-top: 1%;
     font-size: 30px;
     color: #fff;
     font-weight: 100;
+    text-align: center;
 }
 
-.portfolio {
+/* .portfolio {
     height: 80vh;
     background-color: #1F1C1C;
     padding: 50px 0;
     text-align: center;
-}
+} */
 
 .portfolio__container {
     display: grid;
@@ -98,11 +99,41 @@ nav ul li a {
   .portfolio__img p{
     padding-top: 10px;
     color: white;
+    text-align: center;
   }
 
   /*******************************************Resume Section*****************************************************/
 
+  .resume{
+    height: 100vh;
+    padding: 50px 0;
+    background-color: #1F1C1C;
+    text-align: center;
+  }
 
+  .resume h2{
+    margin-top: 1%;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .grid__container{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap:20px;
+  }
+
+  .grid__item{
+    position: relative;
+    padding: 20px;
+    background-color: rgb(238, 238, 15);
+    color: #222;
+}
 
   /*******************************************About Section*****************************************************/
 
