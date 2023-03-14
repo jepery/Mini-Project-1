@@ -149,6 +149,10 @@ nav ul li a {
 
   /*******************************************Footer*****************************************************/
 
+  footer{
+    background-color: black;
+  }
+
   @media screen and (max-width: 990px) {
     .mobile__resume{
       display: block;
