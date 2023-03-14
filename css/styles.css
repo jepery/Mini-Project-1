@@ -11,6 +11,7 @@
     background-image: url(https://github.com/jepery/Mini-Project-1/blob/main/images/sample.png?raw=true);
     background-size: cover;
     background-position: center;
+    
 }
 
 /* nav {
@@ -117,24 +118,11 @@ nav ul li a {
     color: #fff;
     font-weight: 100;
   }
-
-  .grid__container{
-    position: relative;
-    padding: 30px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 900px 900px;
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap:20px;
+  .mobile__resume{
+    display: none;
   }
 
-  .grid__item{
-    position: relative;
-    padding: 20px;
-    background-color: rgb(238, 238, 15);
-    color: #222;
-}
-
+  
   /*******************************************About Section*****************************************************/
 
 
@@ -149,3 +137,13 @@ nav ul li a {
 
 
   /*******************************************Footer*****************************************************/
+
+  @media screen and (max-width: 990px) {
+    .mobile__resume{
+      display: block;
+    }
+    .desktop__resume{
+      display: none;
+    }
+  
+  }
