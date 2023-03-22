@@ -1,36 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;900&display=swap');
 
 /*******************************************Header Section*****************************************************/
-
-.hero__section {
-    /* height: 100vh;
-    background-image: url(https://github.com/jepery/Mini-Project-1/blob/main/images/bg.png?raw=true);
-    background-size: cover;
-    background-position: center;
-     */
+.text__hi{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }
 
-.header-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
+.display-4{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
 }
 
-.header-text h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 70px;
-}
-
-.header-text h2 {
-    font-size: 50px;
-}
-
-.header-text h3 {
-    font-size: 20px;
-    margin: 10px 10px;
+.para{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }
 
 .video-background-holder {
@@ -73,10 +56,26 @@
   z-index: 1;
 }
 
+.navbar-brand{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.nav-item{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+ul li a:hover { color: #f0e663 !important; }
+
 /*******************************************Portfolio*****************************************************/
 
 
 /*******************************************Resume Section*****************************************************/
+  #resume{
+    background-color: rgb(29, 27, 27) !important;
+  }
 
   .resume{
     height: 100vh;
@@ -106,22 +105,32 @@
 
 
   /*******************************************Services*****************************************************/
-
+  #services{
+    background-color: rgb(29, 27, 27) !important;
+  }
 
   /*******************************************Blogs*****************************************************/
   .blog__text{
     text-indent: 50px;
   }
 
+  #nav-blog{
+    background-color: black !important;
+  }
+
+  #footer-blog{
+    background-color: black !important;
+  }
+
   /*******************************************Contact*****************************************************/
 
-
+  #contact{
+    background-color: rgb(29, 27, 27) !important;
+  }
 
   /*******************************************Footer*****************************************************/
 
-  footer{
-    background-color: black;
-  }
+
 
   @media screen and (max-width: 990px) {
     .mobile__resume{
