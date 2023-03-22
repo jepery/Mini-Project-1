@@ -22,10 +22,7 @@
         <div class="hero__section">
             
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <a class="navbar-brand" href="#">
-                    <img src="https://github.com/jepery/Mini-Project-1/blob/main/images/JDC.com.png?raw=true" alt="Bootstrap" width="100" height="100">
-                  </a>
-                <a href="#" class="navbar-brand ps-5">My Portfolio</a>
+                <a href="#" class="navbar-brand ps-5">My Pōtoforio</a>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto pe-5">
                         <li class="nav-item">
@@ -41,57 +38,44 @@
                             <a href="#services" class="nav-link">Services</a>
                         </li>
                         <li class="nav-item">
+                            <a href="#blogs" class="nav-link">Blogs</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <!-- <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container">
-                 <a href="#" class="navbar-brand">My Portfolio</a> -->
-
-                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-
-                        <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse  justify-content-center" id="navmenu">
-                        <ul class="navbar-nav pt-3">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#portfolio" class="nav-link">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#resume" class="nav-link">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#services" class="nav-link">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
+           
+            <div class="video-background-holder">
+                <div class="video-background-overlay"></div>
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                      <source src="https://storage.coverr.co/videos/Nv4Gqow7scn9XalkdfhPSLNjwNWrYYpE?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMzMzkzNjUzfQ.EElJb38kbaq_0OTzJpPnInZjpR8pLDoxwLGskhuoBBc" type="video/mp4">
+                  </video>
+                <div class="video-background-content container h-100">
+                  <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                      <h1 class="display-4">Bootstrap video background</h1>
+                      <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+                      <p class="lead">Snippet by <a href="https://bootstrapious.com/snippets" class="text-white">
+                                  <u>Bootstrapious</u></a>
+                      </p>
                     </div>
+                  </div>
                 </div>
+              </div>
 
-            </nav> -->
-
-
-            <div class="header-text">
+            <!-- <div class="header-text">
                 <h2 class="mobile-hello">Hello, I'm</h2>
-                <h1 class="mobile-name">Jeffry Dela Cruz</h1>
+                <h1 class="mobile-name text-warning">Jeffry Dela Cruz</h1>
                 <h3 class="mobile-title">Freelance Front-end Web Developer</h3>
-            </div>
+            </div> -->
         </div>
     </header>
 
     <!--***************************************Portfolio Section******************************************-->
 
-    <section class="p-5 bg-dark">
+    <section id="projects" class="p-5 bg-dark">
         <h2 class="text-center pb-5 text-light">My <span class="fw-bold">Projects</span></h2>
         <div class="container">
             <div class="row g-4">
@@ -119,7 +103,7 @@
 
     <!--***************************************Resume Section******************************************-->
 
-    <section class="bg-dark text-light p-5">
+    <section id="resume" class="bg-dark text-light p-5">
         <h2 class="text-center pb-5">My <span class="fw-bold">Resume</span></h2>
 
         <div class="mobile__resume">
@@ -240,16 +224,16 @@
 
     <!--***************************************About Me Section******************************************-->
 
-    <section class="about__me-section p-5 bg-dark">
+    <section id="about" class="about__me-section p-5 bg-dark">
         <div class="container">
             <h2 class="text-center mb-5 text-light">About <span class="fw-bold">Me</span></h2>
             <div class="row g-5">
-                <div class="col-md">
-                    <img class="about__img"
+                <div class="col-lg">
+                    <img class="about__img img-fluid"
                         src="https://github.com/jepery/Mini-Project-1/blob/main/images/crop.jpg?raw=true"
                         alt="my image">
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <h2 class="mb-3 text-light">Who Am I?</h2>
                     <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, voluptatum
                         possimus voluptatibus nihil ea aliquam iusto sit et, corrupti provident voluptas debitis maiores
@@ -283,7 +267,7 @@
 
     <!--***************************************Services Section******************************************-->
 
-    <section class="p-5 bg-dark">
+    <section id="services" class="p-5 bg-dark">
         <h2 class="text-center mb-5 text-light">My <span class="fw-bold">Services</span></h2>
         <div class="container">
             <div class="row g-4">
@@ -341,7 +325,7 @@
 
     <!--***************************************Blogs******************************************-->
 
-    <section class="p-5 bg-dark">
+    <section id="blogs" class="p-5 bg-dark">
         <h2 class="text-center mb-5 text-light">My <span class="fw-bold">Blogs</span></h2>
         <div class="container">
             <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel">
@@ -375,7 +359,7 @@
 
     <!--***************************************Contact Section******************************************-->
 
-    <section class="p-5 bg-dark">
+    <section id="contact" class="p-5 bg-dark">
         <h2 class="text-center mb-5 text-light">My <span class="fw-bold">Contact</span></h2>
         <div class="container">
             <div class="row">
