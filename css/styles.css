@@ -2,7 +2,7 @@
 
 .hero__section {
     height: 100vh;
-    background-image: url(https://github.com/jepery/Mini-Project-1/blob/main/images/sample.png?raw=true);
+    background-image: url(https://github.com/jepery/Mini-Project-1/blob/main/images/bg.png?raw=true);
     background-size: cover;
     background-position: center;
     
@@ -36,7 +36,6 @@
 }
 
 /*******************************************Portfolio*****************************************************/
-
 
 
 /*******************************************Resume Section*****************************************************/
