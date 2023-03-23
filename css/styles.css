@@ -172,6 +172,11 @@ ul li a:hover { color: #ebc444 !important; }
     background-color: black !important;
   }
 
+  #blogs__text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+  }
+
   /*******************************************Contact*****************************************************/
 
   #contact{
