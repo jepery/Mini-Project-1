@@ -77,6 +77,28 @@ p{
   font-weight: 300;
 }
 
+.navbar.sticky{
+  opacity: 1;
+  transition: 0.5s ease-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  z-index: 99;
+}
+
+.nav-item a{
+  display:flex;
+  align-items: center !important;
+  justify-content: center;
+
+
+}
+.navbar .nav{
+  display:flex;
+  float:right !important;
+}
+
 ul li a:hover { color: #ebc444 !important; }
 
 /*******************************************Portfolio*****************************************************/
