@@ -201,3 +201,11 @@ ul li a:hover { color: #ebc444 !important; }
     }
   
   }
+
+  @media screen and (max-width: 500px) {
+
+    .arrow{
+      display: none;
+    }
+
+  }
