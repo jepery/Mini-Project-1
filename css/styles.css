@@ -133,6 +133,8 @@ ul li a:hover { color: #ebc444 !important; }
   /*******************************************About Section*****************************************************/
 
   .about__img{
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
