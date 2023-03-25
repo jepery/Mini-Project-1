@@ -106,6 +106,11 @@ ul li a:hover { color: #ebc444 !important; }
   background-color: #ebc444; 
 }
 
+.img-project{
+  width: 100%;
+  height: 100%;
+}
+
 
 /*******************************************Resume Section*****************************************************/
   #resume{
@@ -177,6 +182,11 @@ ul li a:hover { color: #ebc444 !important; }
   #blogs__text{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+  }
+
+  .img_blog{
+    width: 100%;
+    height: 100%;
   }
 
   /*******************************************Contact*****************************************************/
