@@ -102,7 +102,7 @@ p{
 ul li a:hover { color: #ebc444 !important; }
 
 /*******************************************Portfolio*****************************************************/
-#myProject:hover{
+.img-thumbnail:hover{
   background-color: #ebc444; 
 }
 
